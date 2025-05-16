@@ -4,6 +4,11 @@ api final
 Клонировать репозиторий и перейти в него в командной строке, развернуть виртуальное окружение
 python -m venv venv
 
+Активировать виртуальное окружение:
+
+venv/Scripts/acitavte - Windows
+source venv/bin/activate - Linux/macOS
+
 Установить зависимости:
 
 pip install -r requirements.txt
@@ -18,6 +23,9 @@ python manage.py makemigrations
 
 python manage.py migrate
 
+Запустить сервер:
+
+python manage.py runserver
 
 
 
